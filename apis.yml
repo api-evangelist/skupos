@@ -1,8 +1,28 @@
 aid: skupos
 name: Skupos
-description: Skupos is a company surfaced as a portfolio company of insight-partners and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Skupos is a retail technology platform for the convenience store industry that
+  connects independent c-store retailers, distributors, and consumer brands
+  through a single data network. Its SaaS platform delivers scan-data
+  automation, back-office and financial management, tobacco scan-data
+  incentives, digital loyalty and funded promotions, and GasBuddy integration.
+  Founded in 2016 and backed by Insight Partners, Skupos was acquired by PDI
+  Technologies in 2023 and now operates as part of the PDI Essentials product
+  suite. Skupos runs an authenticated production API at api.skupos.com but
+  publishes no public API specification, developer portal, or client SDKs.
 url: https://raw.githubusercontent.com/api-evangelist/skupos/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.pdiessentials.com/_astro/logo-essentials.Rgnh57UP_ZhMMfU.webp
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Retail Technology
+- Convenience Store
+- Scan Data
+- Loyalty
+- Point of Sale
+- SaaS
+- Consumer Packaged Goods
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +48,26 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/skupos-domain-security.yml
 - type: Website
   url: https://www.skupos.com/
+- type: Support
+  url: https://help.skupos.com/en/
+- type: Login
+  url: https://go.skupos.com/login
+- type: Pricing
+  url: https://www.pdiessentials.com/pricing
+- type: TermsOfService
+  url: https://www.pdiessentials.com/skupos-terms/
+- type: PrivacyPolicy
+  url: https://www.pdiessentials.com/skupos-privacy/
+- type: Partners
+  url: https://www.pdiessentials.com/partners
+- type: Contact
+  url: https://www.pdiessentials.com/contact
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
