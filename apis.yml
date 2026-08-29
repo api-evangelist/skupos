@@ -11,6 +11,9 @@ description: >-
   suite. Skupos runs an authenticated production API at api.skupos.com but
   publishes no public API specification, developer portal, or client SDKs.
 url: https://raw.githubusercontent.com/api-evangelist/skupos/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Skupos runs an authenticated production API at api.skupos.com but publishes no public API specification, developer portal, or client SDKs."
 deliveryModel:
   model: saas
   open_source: false
